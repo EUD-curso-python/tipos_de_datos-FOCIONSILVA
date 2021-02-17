@@ -89,11 +89,13 @@ print (apellidos_tuple)
 (con las conversiones que sean necesarias) y agregarle el elemento de la 
 posición 78 de la lista `apellidos_list`.
 """
-apellidos_list2 = list(apellidos_tuple)
+
+xx = list(apellidos_tuple)
+print (xx)
+xx.append(apellidos_list[78])
+#apellidos_list2 = xx
+apellidos_list2=tuple(xx)
 print (apellidos_list2)
-apellidos_list2.append(apellidos_list[77])
-apellidos_list2=tuple(apellidos_list2)
-#print (apellidos_list2)
 #apellidos_list2 = tuple(apellidos_list2)
 
 
